@@ -48,7 +48,7 @@ function Teacher() {
           />
          
           <Card.Body>
-            <Card.Title className="home-teacher">Card title</Card.Title>
+            <Card.Title>Card title</Card.Title>
             <Card.Text>
               Card Text his card has supporting text below as a natural lead-in
               to additional content.{" "}

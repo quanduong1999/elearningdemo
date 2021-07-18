@@ -28,6 +28,10 @@ a {
 @import url("./home/typicalCarousel.css");
 @import url("./home/teacher.css");
 
+/* Contact-Us */
+
+@import url("./contact-us/contact-us.css");
+
 /* Footer */
 
 @import url("./footer/footer.css");
