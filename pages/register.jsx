@@ -9,6 +9,7 @@ const Register = () => {
     const initialState = {name:'', email: '', role:'', password: '', cf_password: ''}
     const [userData, setUserData] = useState(initialState);
     const {name,email,role,password,cf_password} = userData;
+    const Router = useRouter();
     
     const handleChangeInput = (e) => {
       const {name, value} = e.target
@@ -27,6 +28,7 @@ const Register = () => {
       RegisterAPI.postRegister(body)
         .then(res => {
           console.log(res)
+          Router.push("/login");
         })
         .catch(err => console.log(err))
     }
